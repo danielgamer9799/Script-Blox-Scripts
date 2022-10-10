@@ -32,6 +32,7 @@ function cloneGui.buildButtons()
    local cloneButton = nextButton:Clone()
    local buttonSize = UDim2.new(0.4, 0, 0.09, 0)
    
+   
    -- Initialize copy button.
    copyButton.Parent = cloneGui.root
    copyButton.Size = buttonSize
