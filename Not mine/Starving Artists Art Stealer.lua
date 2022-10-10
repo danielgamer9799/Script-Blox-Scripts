@@ -37,7 +37,7 @@ function cloneGui.buildButtons()
    copyButton.Parent = cloneGui.root
    copyButton.Size = buttonSize
    copyButton.Position = UDim2.new(0.28, 0, 0.895)
-   copyButton.Label.Text = 'COPY'
+   copyButton.Label.Text = 'COPY (BANNABLE)'
    copyButton.Name = 'CopyButton'
    
    -- Initialize clone button.
